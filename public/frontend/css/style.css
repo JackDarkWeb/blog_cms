@@ -1,0 +1,25 @@
+.category-list{
+    margin: 0;
+    padding: 0;
+}
+.category-list li{
+    list-style: none;
+}
+
+.category-title{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.post-category a{
+    text-decoration: none;
+}
+
+.comma_separator-item+.comma_separator-item::before {
+    content: ',';
+    padding-right: 1rem;
+    font-size: 1.3rem;
+    vertical-align: middle;
+    margin-top: -.3rem;
+    color: #8e8e8e;
+}
